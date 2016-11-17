@@ -2,7 +2,7 @@ one minimum available application are as below:
 
 ```
 class DoubanModel(BaseModels):
-        # name = StringField(pattern='.title.string')  # StringField 是需要进行说明的
+        # name = StringField(pattern='.title.string')  # StringField id required to be declare
         name = 'title'
 
     range_site = RangeSite(name='douban', model=DoubanModel)
